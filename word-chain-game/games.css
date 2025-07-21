@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f9ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.game-area {
+  width: 300px;
+  text-align: center;
+}
+
+.choices button {
+  margin: 5px;
+  width: 80px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.result {
+  font-weight: bold;
+  margin-top: 15px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f5;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.container {
+  background: white;
+  display: inline-block;
+  padding: 40px 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+  color: green;
+}
+
+#error {
+  color: red;
+}
+
+#error, #message {
+  font-weight: bold;
+}
+
+#scores {
+  margin-top: 20px;
+  font-size: 18px;
+}

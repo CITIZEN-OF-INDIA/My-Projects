@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select a Game</title>
+  <link rel="stylesheet" href="games.css">
+</head>
+<body>
+
+  <h1>Select a Game</h1>
+  <div class="button-container">
+    <button onclick="wordchaingame()">Word Chain Game</button>
+    <button onclick="startSPSGame()">Stone Paper Scissors</button>
+  </div>
+
+  <div class="game-area" id="gameArea"></div>
+  
+  <div class="container">
+    <h1>Word Chain Game</h1>
+
+    <input type="text" id="wordInput" placeholder="Enter a word" />
+    <button id="submitBtn">Submit</button>
+    <button id="resetBtn">Reset</button>
+
+    <div id="message"></div>
+
+    <div id="scores">
+      <p>Current Score: <span id="currentScore">0</span></p>
+      <p>High Score: <span id="highScore">0</span></p>
+    </div>
+  </div>
+
+  
+
+
+  <script src="games.js"></script>
+</body>
+</html>
