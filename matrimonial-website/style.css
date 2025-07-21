@@ -1,0 +1,449 @@
+*
+{
+margin-top:  2px;
+margin-bottom:  0px;
+}
+
+.Navbar
+{
+    display: flex;
+    text-align: center;
+    height: 120px;
+    background-color: #df9fe3;
+}
+.div1
+{
+    padding-left: 0px;
+    padding-top: 0px;
+}
+#marry-me
+{
+  margin-top: 50px;
+}
+a
+{
+    color: rgb(0, 3, 3);
+    text-decoration: none;
+    transition: transform 0.5s;
+    display: inline-block;
+    font-size: x-large;
+}
+a:hover
+{
+    color: rgb(16, 1, 1);
+    transform: scale(1.2); /* slightly enlarges on click */
+
+}
+.div2
+{
+  margin-left: -100px;
+  padding-top: 40px;
+}
+.div3
+{
+    margin-left: 200px;
+    padding-top: 40px;
+    
+}
+.div4
+{
+    margin-left: 200px;
+    padding-top: 40px;
+    
+}
+.image1
+{
+  width: 200px;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-right: 180px;
+}
+.image2
+{
+ margin-top: 50px ;
+  width: 500px;
+  height: auto;
+  margin-left: 200px;
+  
+}
+
+#text1
+{
+    color: #731164;
+    display: block;
+    font-size: 100px;
+    text-align: center;
+    margin-top: -450px;
+    margin-left: 650px;
+    margin-bottom: 250px;
+}
+.moving-text
+{
+    display: inline-block;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    position: relative;
+    animation: slide 15s linear infinite;
+    animation-delay: 0s;
+    font-size: 24px;
+    color: #f71313;
+}
+@keyframes slide {
+      0%   { left: 100%; }
+      100% { left: -100%; }
+}
+.image3
+{
+    width: 300px;
+    height: auto;
+}
+.image4
+{
+    width: 250px;
+    height: auto;
+}
+.image5
+{
+    width: 250px;
+    height: auto;
+}
+
+.card
+{
+   margin-left: 80px; 
+   margin-top: 50px;
+}
+.card-content
+{
+    display: inline-block;
+    border-color: #FF7043;
+    border-style:solid;
+    border-width: 20px;
+    width: 300px;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+      transition: transform 0.3s;
+
+}
+.card-content:hover
+{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.card-content1:hover
+{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.card-content2:hover
+{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.card-content1
+{
+    display: inline-block;
+    border-color: #FF7043;
+    border-style:solid;
+    border-width: 20px;
+    width: 250px;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    margin-left: 200px;
+      transition: transform 0.3s;
+
+}
+.card-content2
+{
+    display: inline-block;
+    border-color: #FF7043;
+    border-style:solid;
+    border-width: 20px;
+    width: 250px;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    margin-left: 200px;
+      transition: transform 0.3s;
+
+}
+.Success
+{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 200px;
+}
+.loggin
+{
+    display: block;
+    background-color: rgb(218, 169, 231);
+    margin-top: 200px;
+    text-align: center;
+    font-size: 50px;    
+    color: #0d0401;
+}
+.button1
+{
+  margin-top: 50px;
+  margin-left: 600px;
+  border-radius: 999px; /* or use 20px for rounded corners */
+  border: none;
+  background-color: #9b392a;
+  color: rgb(255, 254, 242);
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.3s;
+}
+.button1:hover
+{
+    transform: translateY(-5px);
+}
+.experience-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.experience-section h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.card-containers {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cards {
+  width: 300px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 70px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+  background-color: #fff;
+}
+
+.cards:hover 
+{
+  transform: translateY(-5px);
+  cursor: pointer ;
+}
+
+.icon {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 15px;
+}
+.promo-banner {
+  display: flex;
+  align-items: center;
+  background-color: #d8c3ea;
+  border-radius: 16px;
+  padding: 20px 30px;
+  max-width: 1000px;
+  margin: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  gap: 30px;
+}
+
+.promo-left img {
+  width: 150px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.promo-right {
+  flex: 1;
+}
+
+.promo-text {
+  font-size: 30px;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.promo-button {
+  background-color: #4b1a7d;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 999px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.promo-button:hover 
+{
+  background-color: #360d5c;
+}
+.site-footer {
+    margin-top: 30px;
+  background-color: #1f1f23;
+  color: #aaa;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.site-footer .footer-left,
+.site-footer .footer-right {
+  white-space: nowrap;
+}
+
+.site-footer .footer-right {
+  text-align: right;
+}
+/* Overlay Container */
+.formcontainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Form Content */
+.forms-content {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 10px;
+  width: 350px;
+  position: relative;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: gray;
+}
+
+/* Top Image Placeholder */
+.top-space {
+  height: 70px;
+  margin-bottom: 15px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  margin-left: 100px;
+}
+
+/* Form Fields */
+.forms-content input[type="text"],
+.forms-content input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Check and Forgot */
+.extra-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.forms-content button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #16d733;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+.forms-content button:hover
+{
+  background-color: blue;
+}
+
+.forms-content button:nth-of-type(2) 
+{
+  background-color: #16d733;
+}
+.forms-content button:nth-of-type(2):hover
+{
+  background-color: blue;
+}
+.forms-content a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #007bff;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  transition: color 0.3s ease;
+}
+
+.forms-content a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+  font-weight: 600;  /* lock */
+  font-size: 13px;   /* lock */
+}
+
+
+/* OR divider */
+.or-divider 
+{
+  text-align: center;
+  margin: 10px 0;
+  color: gray;
+  font-size: 12px;
+}
+
+/* Footer */
+.footer 
+{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.footer a {
+  font-weight: bold;
+  font-size: 16.7px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #0056b3; /* darker blue on hover */
+  text-decoration: underline;
+  font-size: 16.7px;
+
+}
+
+
+
