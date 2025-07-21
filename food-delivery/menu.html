@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Menu Order</title>
+  <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Food Menu</h1>
+    <form id="menuForm">
+      <div class="category">
+        <h2>Chinese</h2>
+        <label><input type="checkbox" value="12" data-name="Noodles"> Noodles - $12</label><br>
+        <label><input type="checkbox" value="10" data-name="Manchurian"> Manchurian - $10</label><br>
+    
+      </div>
+
+      <div class="category">
+        <h2>Korean</h2>
+        <label><input type="checkbox" value="15" data-name="sushi"> sushi - $15</label><br>
+        <label><input type="checkbox" value="18" data-name="Bibimbap"> Bibimbap - $18</label>
+      </div>
+
+      <div class="category">
+        <h2>Thai</h2>
+        <label><input type="checkbox" value="13" data-name="Pad Thai"> Pad Thai - $13</label><br>
+        <label><input type="checkbox" value="14" data-name="Green Curry"> Green Curry - $14</label>
+      </div>
+
+      <div class="category">
+        <h2>Punjabi</h2>
+        <label><input type="checkbox" value="11" data-name="Butter Chicken"> Butter Chicken - $11</label><br>
+        <label><input type="checkbox" value="9" data-name="Paneer Tikka"> Paneer Tikka - $9</label>
+      </div>
+
+      <div class="category">
+        <h2>South Indian</h2>
+        <label><input type="checkbox" value="8" data-name="Dosa"> Dosa - $8</label><br>
+        <label><input type="checkbox" value="7" data-name="Idli"> Idli - $7</label>
+      </div>
+
+      <div class="category">
+        <h2>Italian</h2>
+        <label><input type="checkbox" value="14" data-name="burger"> burger- $14</label><br>
+        <label><input type="checkbox" value="16" data-name="Pizza"> Pizza - $16</label>
+      </div>
+
+      <div class="category">
+        <h2>Gujarati</h2>
+        <label><input type="checkbox" value="10" data-name="Dhokla"> Dhokla - $10</label><br>
+        <label><input type="checkbox" value="9" data-name="Undhiyu"> Undhiyu - $9</label>
+      </div>
+    </form>
+
+    <div class="summary">
+      <p id="totalCost">Total: $0</p>
+      <button onclick="showPayment()">Order Now</button>
+    </div>
+
+    <div class="payment-section" id="paymentSection" style="display: none;">
+      <h2>Select Payment Method</h2>
+      <button onclick="placeOrder('QR Code')">Pay by QR Code</button>
+      <button onclick="placeOrder('Cash on Delivery')">Cash on Delivery</button>
+      <button onclick="placeOrder('Card')">Pay by Card</button>
+      <p id="finalMessage"></p>
+    </div>
+  </div>
+
+  <script src="menu.js"></script>
+</body>
+</html>
+

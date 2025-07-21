@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #fffaf4;
+  color: #333;
+}
+
+header {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 100px 20px;
+  background-image: url('https://source.unsplash.com/1600x600/?food,restaurant');
+  background-size: cover;
+  background-position: center;
+  color: red;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #ff6b6b;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.menu-section {
+  padding: 50px 20px;
+  background-color: #fefefe;
+  text-align: center;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.item {
+  background-color: yellow;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.item h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.item button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ff6b6b;
+  border: none;
+  color: blueviolet;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#about, #contact {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: pink;
+}
+
+footer {
+  background-color:black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
