@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kho-Kho Game</title>
+    <link rel="stylesheet" href="khokho.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Kho-Kho Game</h1>
+        <div class="game-info">
+            <div id="score">Score: 0</div>
+            <div id="timer">Time: 60s</div>
+            <div id="status">Status: Waiting to start</div>
+            <button id="start-btn">Start Game</button>
+            <button id="reset-btn">Reset Game</button>
+        </div>
+        <div class="game-board" id="game-board">
+            <!-- Game elements will be added by JavaScript -->
+        </div>
+        <div class="game-instructions">
+            <h3>How to Play:</h3>
+            <ul>
+                <li>Click "Start Game" to begin</li>
+                <li>Chaser (blue) tries to tag Runner (red)</li>
+                <li>Use arrow keys to move the active player</li>
+                <li>Press 'K' key to pass the chase (kho)</li>
+                <li>Score increases when Runner is tagged</li>
+                <li>Game lasts 60 seconds</li>
+            </ul>
+        </div>
+    </div>
+    <script src="khokho.js"></script>
+</body>
+</html>
