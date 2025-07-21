@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Subject Resource Selector</title>
+  <link rel="stylesheet" href="s.css">
+  <link rel="stylesheet"href ="tstyle.css">
+</head>
+<body>
+   <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">DELHI SKILLS AND ENERPRENURSHIP University</span> (ROHINI CAMPUS)</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="dseu.html">Home</a></li>
+                    <li><a href="dseuabout.html">About</a></li>
+                    <li><a href="dseusyllabus.html">syllabus</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+                </div> 
+                </div>
+            </article>
+    </section>
+  <h1>Select Subjects and Resources</h1>
+
+  <form id="subjectForm">
+    <div class="subject-container" data-subject="FCS">
+      <label><input type="checkbox" class="subject-checkbox" value="FCS"> FCS</label>
+      <div class="resources" id="resources-FCS"></div>
+    </div>
+
+    <div class="subject-container" data-subject="OP">
+      <label><input type="checkbox" class="subject-checkbox" value="OP"> Operating Systems (OP)</label>
+      <div class="resources" id="resources-OP"></div>
+    </div>
+
+    <div class="subject-container" data-subject="CAO">
+      <label><input type="checkbox" class="subject-checkbox" value="CAO"> Computer Architecture (CAO)</label>
+      <div class="resources" id="resources-CAO"></div>
+    </div>
+
+    <div class="subject-container" data-subject="Maths">
+      <label><input type="checkbox" class="subject-checkbox" value="Maths"> Maths</label>
+      <div class="resources" id="resources-Maths"></div>
+    </div>
+
+    <div class="subject-container" data-subject="Physics">
+      <label><input type="checkbox" class="subject-checkbox" value="Physics"> Physics</label>
+      <div class="resources" id="resources-Physics"></div>
+    </div>
+
+    <div class="subject-container" data-subject="DAS">
+      <label><input type="checkbox" class="subject-checkbox" value="DAS"> Data Structures (DAS)</label>
+      <div class="resources" id="resources-DAS"></div>
+    </div>
+
+    <div class="subject-container" data-subject="C">
+      <label><input type="checkbox" class="subject-checkbox" value="C"> Programming in C</label>
+      <div class="resources" id="resources-C"></div>
+    </div>
+
+    <div class="subject-container" data-subject="C++">
+      <label><input type="checkbox" class="subject-checkbox" value="C++"> OOPs in C++</label>
+      <div class="resources" id="resources-C++"></div>
+    </div>
+
+    <br>
+    <button type="button" id="submitBtn">Submit</button>
+  </form>
+
+  <div class="result" id="resultArea"></div>
+
+  <script src="s.js"></script>
+  <script src="dseu.js"></script>
+</body>
+</html>
