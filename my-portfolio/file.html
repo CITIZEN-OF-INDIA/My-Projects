@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Portfolio Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  </head>
+  <body class="bg-gray-100 scroll-smooth">
+
+    <!--  Navbar -->
+    <nav class="bg-white fixed w-full top-0 left-0">
+      <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+        <div class="text-xl font-bold text-blue-600">MyPortfolio</div>
+        <div class="space-x-6 text-gray-700 font-medium">
+          <a href="#home" class="hover:text-blue-600">Home</a>
+          <a href="#about" class="hover:text-blue-600">About Me</a>
+          <a href="#projects" class="hover:text-blue-600">Projects</a>
+          <a href="#contact" class="hover:text-blue-600">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--  Home Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20">
+      <div class="text-center">
+        <!-- Avatar -->
+        <img src="https://media.licdn.com/dms/image/v2/D4E03AQF-tSmCWQqO5w/profile-displayphoto-shrink_400_400/B4EZZnvvrWH0Ag-/0/1745497293165?e=1758153600&v=beta&t=wQYInmjD-bNPFPL4COXcYe4cIQj4uv08WlI06mdtRm0" alt="Avatar" class="rounded-full w-36 mx-auto mb-4 shadow-lg">
+
+        <!-- Name & Title -->
+        <h1 class="text-4xl font-bold text-gray-800">Hi, I'm Ritvik Arora</h1>
+        <h2 class="text-xl text-blue-600 mt-2">Web Developer & Designer</h2>
+
+        <!-- Tagline -->
+        <p class="mt-4 text-gray-600 italic">"Code is like humor. When you have to explain it, it’s bad."</p>
+<br>
+<br>
+        <!-- Resume Button -->
+        <button class="inline-block bg-green-600 text-white px-6 py-2 rounded-full">
+          Download Resume
+      </button>
+      </div>
+    </section>
+<!-- About Me Section -->
+<section id="about" class="bg-gray-100 py-12 px-6">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
+
+    <!-- Intro Paragraph -->
+    <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+      <p class="text-lg text-gray-700">
+        Hello! I am Ritvik Arora, a 2nd year student at DSEU. My interest lies in the field of AI and its emerging technologies. I aim to build a good scope in this field in the future.
+      </p>
+    </div>
+
+    <!-- Skills List -->
+    <div class="bg-white p-6 rounded-lg shadow-md mb-8">
+      <h3 class="text-2xl font-semibold mb-4">Key Skills</h3>
+      <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 list-disc pl-5 text-gray-700">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Tailwind CSS</li>
+        <li>Java Programming</li>
+        <li>DSA in C++</li>
+        <li>Node.js</li>
+      </ul>
+    </div>
+
+    <!-- Timeline / Education -->
+    <div class="bg-white p-6 rounded-lg shadow-md">
+      <h3 class="text-2xl font-semibold mb-4">Education & Experience</h3>
+      <ul class="space-y-4">
+        <li class="border-l-4 border-blue-500 pl-4">
+          <p class="font-medium text-gray-800">Participated in debates, extempores and speeches</p>
+          <p class="text-sm text-gray-600">June 2022 - Aug 2023</p>
+        </li>
+        <li class="border-l-4 border-blue-500 pl-4">
+          <p class="font-medium text-gray-800">Projects - Web Design</p>
+          <p class="text-sm text-gray-600">Sept 2024 - Present</p>
+        </li>
+        <li class="border-l-4 border-blue-500 pl-4">
+          <p class="font-medium text-gray-800">B.Tech in Computer Science - DSEU</p>
+          <p class="text-sm text-gray-600">Aug 2024 - Aug 2028</p>
+        </li>
+        
+        
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- Projects Section -->
+<section id="projects" class="bg-gray-50 py-12 px-6">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Project Card 1 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+        <a href="https://github.com/yourusername/portfolio" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT15n8Cu0OweiKl-MKIuM9glWRRRyzJ_ymcnw&s" alt="Project 1" class="w-full h-[300px] object-cover"></a>
+       <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Tic-Tac-Toe Game</h3>
+          <p class="text-gray-600 mb-3">A simple game using HTML, CSS, and JavaScript.</p>
+        </div>
+      </div>
+
+      <!-- Project Card 2 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+        <a href="https://github.com/yourusername/portfolio" target="_blank"><img src="https://i.ytimg.com/vi/YGgBzM7qeds/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBwLqk31l6nJbD7tqxxm1gje8S47A/300x500" alt="Project 2" class="w-full h-[300px] object-cover"></a>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Loader</h3>
+          <p class="text-gray-600 mb-3">A simple animated loader for websites.</p>
+        </div>
+      </div>
+
+      <!-- Project Card 3 -->
+      <div class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+ <a href="https://github.com/yourusername/portfolio" target="_blank"><img src="https://i.ibb.co/MkhY7QY9/Screenshot-2025-07-16-191938.png" alt="Project 3" class="w-full h-[300px] object-cover"></a>
+        <div class="p-6">
+          <h3 class="text-xl font-semibold mb-2">Portfolio Website</h3>
+          <p class="text-gray-600 mb-3">Personal portfolio to showcase skills and projects. Built using HTML, Tailwind, and JavaScript.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="bg-white py-12 px-6">
+  <div class="max-w-xl mx-auto">
+    <h2 class="text-3xl font-bold mb-8 text-center">Contact Me</h2>
+
+    <!-- Contact Form -->
+    <form class="space-y-6">
+      <!-- Name -->
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+        <input type="text" id="name" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Your Name">
+      </div>
+
+      <!-- Email -->
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+        <input type="email" id="email" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500" placeholder="you@example.com">
+      </div>
+
+      <!-- Message -->
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+        <textarea id="message" rows="5" class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500" placeholder="Your message here..."></textarea>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit" class="w-full bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700 transition duration-300">
+        Send Message
+      </button>
+    </form>
+
+    <!-- Optional: Social Icons -->
+    <div class="flex justify-center space-x-6 mt-8">
+      <a href="https://github.com/yourusername" target="_blank" class="text-gray-500 hover:text-black transition duration-300">
+        <i class="fab fa-github fa-lg"></i>
+      </a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" class="text-gray-500 hover:text-blue-700 transition duration-300">
+        <i class="fab fa-linkedin fa-lg"></i>
+      </a>
+      <a href="mailto:you@example.com" class="text-gray-500 hover:text-red-500 transition duration-300">
+        <i class="fas fa-envelope fa-lg"></i>
+      </a>
+    </div>
+  </div>
+</section>
+<footer class="bg-gray-100 text-center py-4 text-sm text-gray-600 mt-12">
+  &copy; 2025 Ritvik Arora. All rights reserved.
+</footer>
+</body>
+</html>
+
