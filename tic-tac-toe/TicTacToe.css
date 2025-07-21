@@ -1,0 +1,117 @@
+body
+{
+    background-color: #548687;
+}
+
+
+#box1
+{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+    margin-left: 500px;
+    margin-top: 60px;
+    border-radius: 10%;
+}
+#box2
+{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+    margin-left: 500px;
+    margin-top: 10px;
+    border-radius: 10%;
+
+}
+#box3
+{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+    margin-left: 500px;
+    margin-top: 10px;
+    border-radius: 10%;
+
+}
+#box4
+{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+    margin-left: 660px;
+    margin-top: -470px;
+    border-radius: 10%;
+
+}
+#box5
+{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+    margin-left: 660px;
+    margin-top: 10px;
+    border-radius: 10%;
+
+}
+#box6
+{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+    margin-left: 660px;
+    margin-top: 10px;
+    border-radius: 10%;
+
+}
+#box7
+{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+    margin-left: 820px;
+    margin-top: -470px;
+    border-radius: 10%;
+
+}
+#box8
+{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+    margin-left: 820px;
+    margin-top: 10px;
+    border-radius: 10%;
+
+}
+#box9
+{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+    margin-left: 820px;
+    margin-top: 10px;
+    border-radius: 10%;
+
+}
+#btn1
+{
+margin-left: 520px;
+margin-top: 30px;
+width: 200px;
+text-align: center;
+background-color: blueviolet;
+font-size: 50px;
+border-radius: 10%;
+
+}
+#btn2
+{
+margin-left: 40px;
+margin-top: 30px;
+width: 200px;
+text-align: center;
+background-color: blueviolet;
+font-size: 50px;
+border-radius: 10%;
+}
+
