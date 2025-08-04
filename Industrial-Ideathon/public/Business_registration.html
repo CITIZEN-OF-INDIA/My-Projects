@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Business Registration</title>
+  <link rel="stylesheet" href="Business_registration.css">
+</head>
+<body>
+  <h1>Register Your Business</h1>
+
+  <form action="/register" method="POST" enctype="multipart/form-data">
+    <label for="businessType">Choose Business Type:</label>
+    <select id="businessType" name="businessType" required>
+      <option value="">--Select--</option>
+      <option value="sole">Sole Proprietorship</option>
+      <option value="partnership">Partnership</option>
+      <option value="private_ltd">Private Limited</option>
+      <option value="llp">LLP</option>
+      <option value="opc">One Person Company</option>
+    </select>
+
+    <br><br>
+
+    <div class="file-upload-group">
+  <label for="pan">Upload PAN Card:</label>
+  <div class="file-input-wrapper">
+    <input type="file" id="pan" name="pan" accept=".jpg,.png,.pdf" required>
+    <span class="remove-file" onclick="removeFile('pan')">✖</span>
+  </div>
+</div>
+
+
+    <div class="file-upload-group">
+  <label for="aadhaar">Upload Aadhaar Card:</label>
+  <div class="file-input-wrapper">
+    <input type="file" id="aadhaar" name="aadhaar" accept=".jpg,.png,.pdf" required>
+    <span class="remove-file" onclick="removeFile('aadhaar')">✖</span>
+  </div>
+</div>
+
+<div class="file-upload-group">
+  <label for="addressProof">Upload Address Proof:</label>
+  <div class="file-input-wrapper">
+    <input type="file" id="addressProof" name="addressProof" accept=".jpg,.png,.pdf" required>
+    <span class="remove-file" onclick="removeFile('addressProof')">✖</span>
+  </div>
+</div>
+
+    <button type="submit">Register Business</button>
+  </form>
+  <script>
+  // Show ✖ when file selected
+  document.querySelectorAll('input[type="file"]').forEach(input => {
+    input.addEventListener('change', function () {
+      const span = this.nextElementSibling;
+      if (this.files.length > 0) {
+        span.style.display = 'inline';
+      } else {
+        span.style.display = 'none';
+      }
+    });
+  });
+
+  // Clear file when ✖ clicked
+  function removeFile(id) {
+    const input = document.getElementById(id);
+    input.value = '';
+    input.dispatchEvent(new Event('change')); // trigger change to hide ✖
+  }
+</script>
+<script src="Business_registration.js"></script>
+</body>
+</html>
