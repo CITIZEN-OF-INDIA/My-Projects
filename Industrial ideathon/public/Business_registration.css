@@ -1,0 +1,100 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  color: #343a40;
+}
+
+form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #969595;
+}
+
+input[type="file"],
+select {
+  width: 98%;
+  padding: 10px 14px;
+  margin-bottom: 20px;
+  border: 1px solid #c9c4c2;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fefefe;
+  transition: border-color 0.3s;
+}
+
+input[type="file"]:focus,
+select:focus {
+  border-color: #0fec16;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Responsive */
+@media (max-width: 640px) {
+  form {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
+.file-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.file-input-wrapper input[type="file"] {
+  flex: 1;
+}
+
+.remove-file {
+  display: none;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #dc3545;
+  transition: color 0.3s;
+}
+
+.remove-file:hover {
+  color: #a71d2a;
+}
+
+
+
+
